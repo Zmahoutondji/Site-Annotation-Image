@@ -1,0 +1,290 @@
+/* Header */
+
+
+
+header {
+    background-color: #000000;
+}
+
+/* Section drag-drop image */
+
+.sectionTelechargement {
+    width: 400px;
+    height: 200px;
+    background-color: #00B594;
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 25px;
+}
+.sectionTelechargementInterieur {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+.btn-telecharger {
+    background-color: #00B594;
+    width: 140px;
+    height: 35px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.btn-telecharger:hover {
+    background-color: #7DCEA0;
+}
+
+/* Section images annotés */
+
+.sectionImage {
+    max-width: 400px;
+    max-height: 500px;
+    background-color: #00B594;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.containerImg {
+    width: 100%;
+    height: 100%;
+}
+.containerImg img {
+    max-width: 350px;
+    max-height: 375px;
+    border-radius: 5px;
+}
+.sectionImage .containerImg button {
+    width: 165px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.btn-annoter {
+    display: inline-block;
+}
+.btn-decouvrir {
+    display: inline-block;
+    margin-left: 20px;
+}
+.btn-annoter button {
+    background-color: #5DADE2;
+}
+.btn-decouvrir button {
+    background-color: black;
+}
+.btn-annoter button:hover {
+    background-color: #04ADC0;
+}
+.btn-decouvrir button:hover {
+    background-color: #212F3D;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    min-height: 200px;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+footer li {
+    display: inline-block;
+    padding: 0 5px;
+}
+footer li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Page annotations images */
+
+.sectionAnnotImage {
+    width: 1320px;
+    height: 800px;
+    padding: 30px;
+    background-color: #00B594;
+    margin-top: 40px;
+}
+.sectionAnnotImage .sectionGaucheElements {
+    display: inline-block;
+    height: 100%;
+    width: 560px;
+}
+.sectionAnnotImage .sectionDroiteImage {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+
+}
+.sectionAnnotImage .sectionDroiteImage img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+ 
+    
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis {
+    display: inline-block;
+    width: 450px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis::-webkit-scrollbar {
+    width: 0px;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionDroiteElementsBis {
+    width: 5px;
+    height: 100%;
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .txtIntro p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .ensembleInput input {
+   margin-top: 15px;
+   height: 40px;
+   border: none;
+   outline: none;
+   padding: 0 5px;
+	
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .ensembleInput textarea {
+    margin-top: 15px;
+    height: 350px;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 0 5px;
+ }
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .allRadios {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .allRadios p {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .couleur {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .couleur input {
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .couleur p {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .btn-annuler button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E74C3C;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .btn-annuler button:hover {
+    background-color: #F6857A;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .btn-envoyer input {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sectionAnnotImage .sectionGaucheElements .sectionGaucheElementsBis .btn-envoyer input:hover {
+    background-color: #303233;
+}
+
+/* Page toutes les annotations */
+
+.sectionFullPage {
+    width: 1320px;
+    height: 800px;
+    padding: 40px;
+    background-color: #00B594;
+    margin-top: 40px;
+}
+.sectionFullPage .sectionAllAnnotGauche {
+    height: 700px;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    font-weight: 600;
+}
+.sectionFullPage .sectionAllAnnotGauche img {
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sectionFullPage .sectionAllAnnotDroite {
+    max-height: 700px;
+    overflow-y: scroll; 
+}
+.sectionFullPage .sectionAllAnnotDroite::-webkit-scrollbar {
+    width: 0px;
+}
+.sectionFullPage .sectionAllAnnotDroite .sectionAnnotDescription {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.sectionFullPage .sectionAllAnnotDroite .sectionAnnotDescription p {
+    font-size: 12px;
+    color: #57555A;
+    margin-bottom: 0;
+}
+.sectionFullPage .sectionAllAnnotDroite .sectionAnnotDescription .titre {
+    margin-bottom: 5px;
+}
+.sectionFullPage .sectionAllAnnotDroite .sectionAnnotDescription .text {
+    border: 1px solid #BFBFBF;
+    padding: 8px;
+    max-height: 100px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.sectionFullPage .sectionAllAnnotDroite .sectionAnnotDescription .couleur .text {
+    padding-bottom: 3px;
+}
+.sectionFullPage .sectionAllAnnotDroite .sectionAnnotDescription .text::-webkit-scrollbar {
+    width: 0px;
+}
