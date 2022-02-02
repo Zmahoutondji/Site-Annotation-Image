@@ -169,7 +169,7 @@ class ModeleAnnotation extends Connexion{
 			$couleur3=$tab[$i]['couleur3_Image'];
 			
 
-			echo 'ca  passr';
+			
 			
 			
 			$xml .= '<annotation>';
